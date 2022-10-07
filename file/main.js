@@ -1,1 +1,2 @@
-console.log("Pussy")
+let str = prompt("Pussy: ");
+console.log(`Pussy${str}`);
