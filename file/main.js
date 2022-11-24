@@ -10,8 +10,9 @@ function curry(f) { // curry(f) выполняет каррирование
   }
 
 function uotput(a, b, c){
-    console.log(a + b + c);
+  console.log(a + b + c);
 }
+
 
 const oc = curry(uotput);
 
@@ -21,5 +22,3 @@ let lastname = "Golovach";
 
 uotput(name, space, lastname);
 oc(name)(space)(lastname);
-
-
